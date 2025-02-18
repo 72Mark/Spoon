@@ -1,0 +1,68 @@
+.grettings {
+    background: url(../../img/grettings.css/fon.png) no-repeat center/cover;
+}
+
+.container {}
+
+.grettings__content {}
+
+.header {
+    display: flex;
+    column-gap: 400px;
+    justify-content: space-between;
+}
+
+.logo {}
+
+.nav {}
+
+.nav_list {
+    display: flex;
+    column-gap: 40px;
+
+    align-items: center;
+}
+
+.nav_item {
+    font-family: var(--LibreFr);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #fff;
+}
+
+.square {
+    width: 4px;
+    height: 4px;
+    background-color: white;
+}
+
+.nav_item:last-child {
+    border: 2px solid white;
+    padding: 11px 17px;
+    border-radius: 4px;
+
+}
+
+.grettings__desc {}
+
+.grettings_title {
+    font-family: var();
+    font-weight: 700;
+    font-size: 71px;
+    line-height: 110%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #fff;
+}
+
+.grettings_text {
+    font-family: var();
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 185%;
+    text-align: center;
+    color: #fff;
+}
+
+.btn {}
