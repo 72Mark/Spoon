@@ -1,0 +1,44 @@
+.service {
+    margin-top: 117px;
+}
+
+.service__content {}
+
+.service__main-text {
+    max-width: 507px;
+}
+
+.service__list {
+    display: flex;
+    margin-top: 54px;
+}
+
+.service__item {
+    border: 1px solid #999999;
+    width: 357px;
+    height: 300px;
+    margin: 19px;
+    padding: 54px 5px 109px 42px;
+
+
+}
+
+.service__title {
+    font-family: var(--LibreFr);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000;
+    padding-top: 30px;
+    padding-bottom: 13px;
+    max-width: 138px;
+}
+
+.service__text {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 185%;
+    color: #999;
+    max-width: 272px;
+}

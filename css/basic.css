@@ -1,13 +1,10 @@
-/* переменные */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --colorGreen: #5AB963;
-    --fontLF:"libre franklin", selif;
-    --fontIBM:"IBM Plex Mono", serif;
+    --ColorGreen: #5AB963;
+    --LibreFr: "Libre Franklin",serif;
+    --IBMPlexMono:"IBM Plex Mono",serif;
 }
 
 *{
@@ -17,6 +14,7 @@
 body, html{
     height: 100%;
 }
+
 
 a{
     text-decoration: none;
@@ -35,3 +33,18 @@ ul, ol{
     max-width: 1185px;
     margin: 0 auto;
 }
+
+.main-text {
+    font-family: var(--LibreFr);
+    font-size: 24px;
+    font-weight: 100;
+    color: #999;
+    line-height: 150%;
+}
+
+.main-text span{
+    color: black;
+    font-weight: 700;
+}
+
+
