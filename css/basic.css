@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 
+/* переменные */
 :root{
-    --ColorGreen: #5AB963;
-    --LibreFr: "Libre Franklin",serif;
-    --IBMPlexMono:"IBM Plex Mono",serif;
+    --colorGreen: #5AB963;
+    --fontLF: "Libre Franklin", serif;
+    --fontIBM: "IBM Plex Mono", serif;
 }
 
 *{
@@ -14,7 +16,6 @@
 body, html{
     height: 100%;
 }
-
 
 a{
     text-decoration: none;
@@ -35,7 +36,7 @@ ul, ol{
 }
 
 .main-text {
-    font-family: var(--LibreFr);
+    font-family: var(--fontLF);
     font-size: 24px;
     font-weight: 100;
     color: #999;
@@ -47,4 +48,31 @@ ul, ol{
     font-weight: 700;
 }
 
+.link{
+    font-family: var(--fontIBM);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 164%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #5ab963;
+}
 
+.btn {
+    border-radius: 4px;
+    background-color: var(--colorGreen);
+    padding: 15px 30px;
+    border: none;
+    font-family: var(--fontLF);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+.btn:hover {
+    transform: scale(1.3);
+}
