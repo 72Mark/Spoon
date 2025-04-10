@@ -15,6 +15,7 @@
 
 body, html{
     height: 100%;
+    overflow-x: hidden;
 }
 
 a{
@@ -33,6 +34,7 @@ ul, ol{
 .container{
     max-width: 1185px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 
 .main-text {
@@ -75,4 +77,5 @@ ul, ol{
 
 .btn:hover {
     transform: scale(1.3);
+
 }

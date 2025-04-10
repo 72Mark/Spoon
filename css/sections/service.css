@@ -31,4 +31,14 @@
     line-height: 171%;
     color: #999;
     margin-top: 13px;
+    
+}
+
+@media(max_width:800){
+    .service__list{
+        flex-direction: column;
+    }
+     .service{
+        margin-top: 50px;
+     }
 }
